@@ -29,6 +29,26 @@
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+      function onSubmit() {
+        document.getElementById('demo-form').submit();
+      }
+    </script>
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+      .status-message {
+        background-color: #5ff;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      textarea {
+        margin: 10px 0;
+        resize: none;
+      }
+    </style>
   
 </head>
 <body>
@@ -71,7 +91,11 @@
         </header>
         <div class="row">
           <div data-animate="fadeInUp" class="col-lg-6">
-            <p>I am Data Enthusiast </p>
+            <p>I am Data Enthusiast, quick learner and keen to
+            explore and visualise data. To be able to grow and
+            work professionally as a Data Scientist/Machine
+            Learning Engineer in a stable organisation where I can
+            develop my skill and contribute. My endeavour and dedication in the job will be helpful in achieving the company its Goals and objective.</p>
 
             <p>I am a talented, ambitious and hardworking individual, with broad skills and experience in digital and printed marketing, social media and leading projects.</p>
             
@@ -87,13 +111,13 @@
             <div class="skill-item">
               <div class="progress-title">MachineLearning & DeepLearning</div>
               <div class="progress">
-                <div role="progressbar" style="width: 45%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+                <div role="progressbar" style="width: 30%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
               </div>
             </div>
             <div class="skill-item">
               <div class="progress-title">Javascript</div>
               <div class="progress">
-                <div role="progressbar" style="width: 55%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+                <div role="progressbar" style="width: 45%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
               </div>
             </div>
             <div class="skill-item">
@@ -103,9 +127,15 @@
               </div>
             </div>
             <div class="skill-item">
+              <div class="progress-title">Multi Criteria Decision Making</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
               <div class="progress-title">Python</div>
               <div class="progress">
-                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+                <div role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
               </div>
             </div>
             
@@ -118,9 +148,13 @@
            
           </div>
           <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/IMG_9395.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+          
+
         </div>
+
       </div>
     </section>
+
 
 
 
@@ -139,8 +173,7 @@
           <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-code"></i></div>
             <h3 class="heading mb-3 text-400">Code Anything</h3>
-            <p class="text-left description">Code powers virtually everything around us. When you turn your car on, code lets your key talk to the engine. When you want pizza, code places your online order. When you want to know if you should eat that pizza, code helps you keep track and decide. And when you use your favourite apps, code lets you send a message, share a photo or swap faces with your cat.
-            Courtsey:Apple</p>
+            <p class="text-left description">We use programming languages to create software programs. Coding is in almost every aspect of modern life. Every application on a phone, tablet, or computer uses computer languages to run. Other digital systems like smart TVs and calculators use it as well. Virtually every new car uses it to control everything from air conditioning system to fuel injectors, and cities employ computers to operate traffic signals.</p>
           </div>
           <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-html5"></i></div>
@@ -170,7 +203,7 @@
         <div class="col-sm-12">
           <div class="mb-5 text-center">
             <h2 data-animate="fadeInUp" class="title">My Projects</h2>
-            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you(Just Kidding &#128540;)</p>
           </div>
           <ul id="filter" data-animate="fadeInUp">
             <li class="active"><a href="#" data-filter="all">All</a></li>
@@ -201,14 +234,14 @@
                     <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
                         <div class="overlay">
                           <div class="inner">
-                            <h3 class="h4 reference-title">Html5 Csss & JavaScript</h3>
+                            <h3 class="h4 reference-title">Html & Css & JavaScript</h3>
                             <p>Implement modern web pages with HTML and CSS.</p>
                           </div>
                         </div></a>
-                      <div data-images="img/web1.jpg,img/web2.jpg,img/web3.jpg" class="sr-only reference-description">
-                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      <div data-images="img/web2.jpg,img/web1.jpg,img/web3.jpg" class="sr-only reference-description">
+                        <p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
+                        <p>In this project,  learnt all new Javascript language skills and learn how to utilize them within the context of a web page. Started by learning how to properly manipulate the web page components using the Javascript Document Object Model API. Then moved on to learning one of the most popular ways of serving up data to a web site - Ajax. Learnt about the protocol that the language of the web speaks in (HTTP), how to set up and handle Ajax requests and responses, as well as how to process JSON data. Finished the project by connecting restaurant web site to a real backend service that will allow us to pull the data for the restaurant menu dynamically from the server without having to reload the entire page.</p>
+                        <p class="buttons text-center"><a href="https://github.com/mishraabhinn/Web-Developement" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i> View Project</a><a href="https://coursera.org/share/2179085df21e97fdeb5c4115e6396b08" target="_blank" class="btn btn-outline-primary"><i class="fa fa-download"></i> Certificate</a></p>
                       </div>
                     </div>
                   </div>
@@ -284,6 +317,7 @@ To choose the best Wood And Non-Wood Fibre for the Pulp and Paper industry.</h3>
                     <textarea name="entry.1564487681" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
                   </div>
                   <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center">
                     <button type="submit" class="btn btn-outline-primary">Send message</button>
                   </div>
                 </div>
